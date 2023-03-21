@@ -1,0 +1,266 @@
+.menu{
+    color: #2F4858;
+    font-size: 12px;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    margin-top: 4rem;
+    margin-left: 70%;
+    margin-right: 1.5rem;
+  
+
+}
+
+b > img{
+  height:55px;
+  width: 55px;
+
+}
+
+li {
+    margin-left: 2.5rem;
+
+}
+
+.homepage {
+  background-image : url('airplane.png');
+	background-repeat : no-repeat;
+  background-size: cover;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#intro {
+  position: absolute;
+  top: 50%;
+  height: 300px;
+  margin-top: -240px;
+  
+}
+
+#intro h1 {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  margin-left: 7rem;
+  color: #659B91;
+
+}
+
+#intro h2 {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-left: 7.7rem;
+  color: #5D6177;
+  margin-top: 1rem;
+}
+
+#intro h3 {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-left: 7.7rem;
+  color: #524438;
+  margin-top: 1rem;
+}
+
+#intro h4 {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 7.7rem;
+  margin-top: 1.5rem;
+  color: #2F4858;
+}
+
+.checkinpage {
+  background-image:url('2.png');
+  display: flex;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#checkin {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  margin-top: 7rem;
+  margin-left: 7rem;
+  color: white;
+}
+
+#boardingpass1 {
+  width:200rem;
+  height: 35rem;
+  background-color: beige;
+  border-right: dotted, 50px, red;
+  border-radius: 40px;
+  margin-top: 5rem;
+  margin-left: -45em;
+  box-shadow: 10px, 10px;
+  
+}
+#boardingpass1 h1 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+
+}
+
+#boardingpass1 h2 {
+  display: flex;
+  margin-top: 1.7rem;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 30em;
+
+}
+
+
+#boardingpass2 {
+
+  width:70rem;
+  height: 35rem;
+  background-color: beige;
+  border-radius: 40px;
+  margin-top: 5rem;
+  margin-right: 5rem;
+
+
+}
+
+#boardingpass2 h1{
+  display: flex;
+  margin-top: 8em;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 3em;
+}
+
+#boardingpass2 h2{
+  display: flex;
+  margin-top: 1.5em;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 3em;
+}
+
+.passportconpage {
+  background-image:url('2.png');
+  display: flex;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#passportcon {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  margin-top: 7rem;
+  margin-left: 7rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+details {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+  padding: 5px;
+}
+#question1 {
+
+  display: block;
+  width:300em;
+  margin-bottom: 15em;
+  margin-left: -15em;
+}
+details h2 {
+  font-weight: 500;
+  margin-top: 0.5em;
+}
+
+#question2 {
+  display: block;
+  width:300em;
+  margin-bottom: 5em;
+  margin-left: -43em;
+}
+
+#question3 {
+  display: block;
+  width:300em;
+  margin-bottom: -3em;
+  margin-left: -43em;
+}
+
+#question4 {
+  display: block;
+  width:300em;
+  margin-bottom: -14em;
+  margin-left: -43em;
+}
+
+
+
+
+#passportpic {
+  width: 50em;
+  height: 30em;
+  display: flex;
+  margin-top: 20em;
+  margin-right: 4rem;
+}
+
+.boardingpage {
+  background-image:url('3.png');
+  display: flex;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#boardingintro {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  margin-top: 8rem;
+  margin-left: 8rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+
+#contactlist {
+  margin-bottom: -100rem;
+  margin-left: -120rem;
+}
+
+#contactlist a {
+  text-decoration: none;
+}
+
+#contactlist img {
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
