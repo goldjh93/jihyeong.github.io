@@ -23,7 +23,7 @@ li {
 }
 
 .homepage {
-  background-image : url('airplane.png');
+  background-image : url('./airplane.png');
 	background-repeat : no-repeat;
   background-size: cover;
   display: table;
@@ -78,7 +78,7 @@ li {
 }
 
 .checkinpage {
-  background-image:url('2.png');
+  background-image:url('./2.png');
   display: flex;
   background-size: cover;
   margin-left: auto;
@@ -177,7 +177,7 @@ li {
 }
 
 .passportconpage {
-  background-image:url('2.png');
+  background-image:url('./2.png');
   display: flex;
   background-size: cover;
   margin-left: auto;
@@ -251,7 +251,7 @@ details h2 {
 }
 
 .boardingpage {
-  background-image:url('3.png');
+  background-image:url('./3.png');
   display: block;
   background-size: cover;
   margin-left: auto;
