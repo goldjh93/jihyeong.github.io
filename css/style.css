@@ -97,23 +97,37 @@ li {
 }
 
 #boardingpass1 {
+  display: inline-block;
   width:200rem;
   height: 35rem;
   background-color: beige;
-  border-right: dotted, 50px, red;
   border-radius: 40px;
   margin-top: 5rem;
-  margin-left: -45em;
-  box-shadow: 10px, 10px;
-  
+  margin-left: -45em;  
 }
+
+#boardingpass1 img{
+  margin-top: 3rem;
+  margin-left: 3rem;
+  border-radius: 20%;
+  width: 25rem;
+  height: 30rem;
+  transition: all 0.2s linear;
+  overflow: hidden;
+}
+
+#boardingpass1 img:hover{
+  transform: scale(1.4);
+}
+
 #boardingpass1 h1 {
   text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1.5em;
+  margin-left: 5em;
+  margin-top: -8em;
+  margin-bottom: 1em;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 60px;
 
 }
 
@@ -122,27 +136,24 @@ li {
   margin-top: 1.7rem;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
-  font-size: 20px;
-  margin-left: 30em;
+  font-size: 25px;
+  margin-left: 23em;
 
 }
 
 
 #boardingpass2 {
-
   width:70rem;
   height: 35rem;
   background-color: beige;
   border-radius: 40px;
   margin-top: 5rem;
   margin-right: 5rem;
-
-
 }
 
 #boardingpass2 h1{
   display: flex;
-  margin-top: 8em;
+  margin-top: 1em;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -158,6 +169,13 @@ li {
   margin-left: 3em;
 }
 
+#boardingpass2 img {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  width: 22rem;
+  height: 10rem;
+}
+
 .passportconpage {
   background-image:url('2.png');
   display: flex;
@@ -169,13 +187,24 @@ li {
 }
 
 #passportcon {
+  width: 30rem;
+  height: 10rem;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
   font-size: 100px;
-  margin-top: 7rem;
+  margin-top: -40rem;
   margin-left: 7rem;
   margin-bottom: 1.5rem;
   color: white;
+}
+
+.questionlist {
+  text-align: left;
+  margin-top: 5rem;
+  margin-left: -30rem;
+  display: inline-block;
+  width: 130rem;
+  height: 40rem;
 }
 
 details {
@@ -183,55 +212,47 @@ details {
   font-weight: 600;
   font-size: 30px;
   color: white;
-  padding: 5px;
-}
-#question1 {
 
-  display: block;
-  width:300em;
-  margin-bottom: 15em;
-  margin-left: -15em;
+  margin-top: 4rem;
 }
+
+details summary::marker{font-size:0;}
+
+summary {
+  cursor: pointer;
+}
+
+summary:hover {
+  color: #C3FCF1;
+  transition: 2s;
+}
+
 details h2 {
   font-weight: 500;
+  margin-left: 0.5em;
   margin-top: 0.5em;
 }
 
-#question2 {
-  display: block;
-  width:300em;
-  margin-bottom: 5em;
-  margin-left: -43em;
-}
-
-#question3 {
-  display: block;
-  width:300em;
-  margin-bottom: -3em;
-  margin-left: -43em;
-}
-
-#question4 {
-  display: block;
-  width:300em;
-  margin-bottom: -14em;
-  margin-left: -43em;
-}
-
-
-
-
 #passportpic {
-  width: 50em;
-  height: 30em;
-  display: flex;
+  width: 45em;
+  height: 40em;
+  display: inline-flex;
   margin-top: 20em;
   margin-right: 4rem;
+  -webkit-transform: rotate(15deg) scale(1.25);
+  transform: rotate(15deg) scale(1.25);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#passportpic:hover{
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
 }
 
 .boardingpage {
   background-image:url('3.png');
-  display: flex;
+  display: block;
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
@@ -240,26 +261,83 @@ details h2 {
 }
 
 #boardingintro {
+  display:inline-flex;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
   font-size: 60px;
-  margin-top: 8rem;
-  margin-left: 8rem;
-  margin-bottom: 1.5rem;
   color: white;
+  width: 90rem;
+  height: 10rem;
+  margin-top: 5rem;
+  margin-left: 7rem;
+
+}
+
+#boardingintro h2 {
+  width: 60rem;
+}
+
+.picturelist {
+    display:inline-flex;
+    width: 90rem;
+    height: 25rem;
+    margin-top: 4rem;
+    margin-left: 16rem;
 }
 
 
-#contactlist {
-  margin-bottom: -100rem;
-  margin-left: -120rem;
+.lists{
+    text-align: center;
+    font-family: 'Palanquin Dark', sans-serif;
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    height: 25rem;
+    width: 19rem;
+    margin-right: 4rem;
 }
 
-#contactlist a {
+.list_img {
+    border-radius: 20%;
+    width: 280px;
+    height: 360px;
+    display: flex;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.list_img:hover{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.lists p {
+  margin-top: 1rem;
+}
+
+.lists p:hover{
+  color: #FF8765;
+  transition: 2s;
+}
+
+.contactlist {
+  display: inline-flex;
+  width: 40rem;
+  height: 12rem;
+  margin-top: 4rem;
+  margin-left: 40rem;
+}
+
+.contactlist a {
+
   text-decoration: none;
 }
 
-#contactlist img {
+.contactlist img {
   padding: 20px;
   width: 100px;
   height: 100px;
