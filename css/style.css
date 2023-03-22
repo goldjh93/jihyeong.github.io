@@ -1,3 +1,9 @@
+body {
+  overflow-x: hidden;
+  
+}
+
+
 .menu{
     color: #2F4858;
     font-size: 12px;
@@ -72,10 +78,12 @@ li {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
   font-size: 25px;
-  margin-left: 7.7rem;
-  margin-top: 1.5rem;
+  margin-left: 7rem;
+  margin-top: 1rem;
   color: #2F4858;
 }
+
+/* 2번쨰 페이지 */
 
 .checkinpage {
   background-image:url('./2.png');
@@ -90,25 +98,25 @@ li {
 #checkin {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
-  font-size: 100px;
-  margin-top: 7rem;
+  font-size: 90px;
+  margin-top: 4rem;
   margin-left: 7rem;
   color: white;
 }
 
 #boardingpass1 {
-  display: inline-block;
+  display: inline;
   width:200rem;
   height: 35rem;
   background-color: beige;
   border-radius: 40px;
   margin-top: 5rem;
-  margin-left: -45em;  
+  margin-left: -30rem;  
 }
 
 #boardingpass1 img{
   margin-top: 3rem;
-  margin-left: 3rem;
+  margin-left: 4rem;
   border-radius: 20%;
   width: 25rem;
   height: 30rem;
@@ -122,9 +130,9 @@ li {
 
 #boardingpass1 h1 {
   text-align: center;
-  margin-left: 5em;
-  margin-top: -8em;
-  margin-bottom: 1em;
+  margin-left: 25rem;
+  margin-top: -32rem;
+  margin-bottom: 1rem;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
   font-size: 60px;
@@ -133,11 +141,11 @@ li {
 
 #boardingpass1 h2 {
   display: flex;
-  margin-top: 1.7rem;
+  margin-top: 2rem;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
   font-size: 25px;
-  margin-left: 23em;
+  margin-left: 33rem;
 
 }
 
@@ -148,7 +156,7 @@ li {
   background-color: beige;
   border-radius: 40px;
   margin-top: 5rem;
-  margin-right: 5rem;
+  margin-right: 3rem;
 }
 
 #boardingpass2 h1{
@@ -172,9 +180,11 @@ li {
 #boardingpass2 img {
   margin-top: 1rem;
   margin-left: 3rem;
-  width: 22rem;
+  width: 16rem;
   height: 10rem;
 }
+
+/* 3번째 Questionpage 입니다.  */
 
 .passportconpage {
   background-image:url('./2.png');
@@ -192,15 +202,15 @@ li {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
   font-size: 100px;
-  margin-top: -40rem;
-  margin-left: 7rem;
-  margin-bottom: 1.5rem;
+  margin-top: -30rem;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
   color: white;
 }
 
 .questionlist {
   text-align: left;
-  margin-top: 5rem;
+  margin-top: 7rem;
   margin-left: -30rem;
   display: inline-block;
   width: 130rem;
@@ -229,15 +239,16 @@ summary:hover {
 
 details h2 {
   font-weight: 500;
+  font-size: 25px;
   margin-left: 0.5em;
   margin-top: 0.5em;
 }
 
 #passportpic {
-  width: 45em;
-  height: 40em;
-  display: inline-flex;
-  margin-top: 20em;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  margin-top: 20rem;
   margin-right: 4rem;
   -webkit-transform: rotate(15deg) scale(1.25);
   transform: rotate(15deg) scale(1.25);
@@ -250,25 +261,29 @@ details h2 {
   transform: rotate(0) scale(1);
 }
 
+/* 4번째 페이지  */
+
 .boardingpage {
   background-image:url('./3.png');
-  display: block;
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+
 }
 
 #boardingintro {
-  display:inline-flex;
+  display:flex;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
   font-size: 60px;
   color: white;
   width: 90rem;
   height: 10rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-left: 7rem;
 
 }
@@ -278,11 +293,11 @@ details h2 {
 }
 
 .picturelist {
-    display:inline-flex;
+    display: flex;
     width: 90rem;
     height: 25rem;
-    margin-top: 4rem;
-    margin-left: 16rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
 }
 
 
@@ -295,14 +310,13 @@ details h2 {
     color: white;
     line-height: 1.5;
     height: 25rem;
-    width: 19rem;
-    margin-right: 4rem;
+    margin-right: 6rem;
 }
 
 .list_img {
     border-radius: 20%;
-    width: 280px;
-    height: 360px;
+    width: 250px;
+    height: 340px;
     display: flex;
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
@@ -325,11 +339,11 @@ details h2 {
 }
 
 .contactlist {
-  display: inline-flex;
+  display: flex;
   width: 40rem;
   height: 12rem;
-  margin-top: 4rem;
-  margin-left: 40rem;
+  margin-top: 1rem;
+  margin-left: 8rem;
 }
 
 .contactlist a {
@@ -339,6 +353,6 @@ details h2 {
 
 .contactlist img {
   padding: 20px;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
